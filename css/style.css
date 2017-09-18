@@ -37,7 +37,7 @@ input:hover, input:focus {
 	outline: 0;
 	-webkit-transition: all .5s linear;
 	transition: all .5s linear;
-	box-shadow: inset 0px 0px 10px #ccc;
+	/*box-shadow: inset 0px 0px 10px #ccc;*/
 }
 
 meter {
