@@ -4,8 +4,19 @@
 	box-sizing: border-box;
 }
 
+html{
+	/* This image will be displayed fullscreen */
+	background:url("../images/emblem.png") no-repeat center center;
+	
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+	
+	/* The Magic */
+	background-size:cover;
+}
+
 body {
-    padding: 2.5em 2em 0em;
+    padding: 0em 1em 0em;
     background: #ffffff;
 		font-size: 1.5em;
 		color: #346;
